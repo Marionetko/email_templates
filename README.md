@@ -1,8 +1,6 @@
-# email_templates
-
 <h1>Responsive email templates</h1>
 
-Published:
+<p>Published:</p>
 
 <ol>
   <li></li>
