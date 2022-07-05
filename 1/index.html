@@ -115,6 +115,134 @@
             font-weight: 300;
             letter-spacing: .52px;
         }
+
+        .footer-td {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .footer-menu-td {
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+
+        .footer-menu-td a {
+            color: #bcc9dd;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: .36px;
+            text-decoration: none;
+        }
+
+        .copyright-td {
+            color: #bcc9dd;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: .31px;
+        }
+
+        .copyright-td a {
+            color: #bcc9dd;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        @media (max-width: 870px) {
+            .table-850 {
+                width: 600px !important;
+            }
+
+            .table-600 {
+                width: 550px !important;
+            }
+
+            .block-table {
+                width: 200px !important;
+            }
+
+            .block-table p br {
+                display: none !important;
+            }
+
+            .features-td td {
+                display: block !important;
+                margin-bottom: 50px !important;
+            }
+        }
+
+        @media (max-width: 620px) {
+            .table-850 {
+                width: 400px !important;
+            }
+
+            .table-600 {
+                width: 320px !important;
+            }
+
+            .block-td {
+                display: block !important;
+                margin-bottom: 50px !important;
+                padding: 0 !important;
+            }
+
+            .testimonials-td tr {
+                display: block !important;
+            }
+
+            .block-table {
+                display: block !important;
+                margin: 0 auto !important;
+                width: 320px !important;
+            }
+
+            .author {
+                width: 200px !important;
+            }
+
+            .logo {
+                display: block !important;
+                margin: 0 auto !important;
+                width: 200px !important;
+                padding-bottom: 20px !important;
+            }
+
+            .logo img {
+                margin: 0 auto !important;
+            }
+
+            .menu {
+                display: block !important;
+                margin: 0 auto !important;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .table-850 {
+                width: 300px !important;
+            }
+
+            .table-600 {
+                width: 260px !important;
+            }
+
+            .block-table {
+                width: 260px !important;
+            }
+
+            .footer-menu-td table {
+                width: 260px !important;
+            }
+
+            .testimonials-td {
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+            }
+
+            .menu td {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+        }
 	</style>
 </head>
 
@@ -235,15 +363,43 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="footer" bgcolor="#38404b">
+                        <td class="footer-td" bgcolor="#38404b">
                             <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
                                 <tr class="footer-logo" align="center">
-                                    <a href="#">
-                                        <img src="" alt="footer-logo" />
-                                    </a>
+                                    <td>
+                                        <a href="#">
+                                            <img src="https://raw.githubusercontent.com/Marionetko/email_templates/main/help_images/bella/footer-logo.png" alt="footer-logo" />
+                                        </a>
+                                    </td>                                  
+                                </tr>
+                                <tr>
+                                    <td class="footer-menu-td" align="center">
+                                        <table cellpadding="0" cellspacing="0" width="350" align="center">
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Releway';">About Us</a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Releway';">Team</a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Releway';">News</a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Releway';">Contact Us</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="copyright-td" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Releway';">© 2014 pixelhint.com. All Rights Reserved</td>
                                 </tr>
                             </table>
                         </td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="850"></td>
                     </tr>
                 </table>
             </td>
