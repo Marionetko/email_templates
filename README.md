@@ -1,2 +1,4 @@
 # email_templates
-responsive email templates
+Responsive email templates
+
+published:
