@@ -3,5 +3,7 @@
 <p>Published:</p>
 
 <ol>
-  <li></li>
+  <li>
+    <a href="https://marionetko.github.io/email_templates/1/index.html">Bella theme</a>
+  </li>
 <ol>
