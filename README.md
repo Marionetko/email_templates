@@ -1,4 +1,7 @@
 # email_templates
 Responsive email templates
 
-published:
+Published:
+<ol>
+  <li></li>
+<ol>
