@@ -9,4 +9,7 @@
   <li>
     <a href="https://marionetko.github.io/email_templates/2/index.html">Insight Agency</a>
   </li>
+  <li>
+    <a href="https://marionetko.github.io/email_templates/3/index.html">SailChimp</a>
+  </li>
 <ol>
